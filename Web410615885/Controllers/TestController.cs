@@ -23,6 +23,7 @@ namespace Web410615885.Controllers
         }
         public ActionResult HW3()
         {
+            ViewBag.Message = "訊息";
             return View();
         }
     }
